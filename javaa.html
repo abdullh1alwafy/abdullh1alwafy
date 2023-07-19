@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="icon" href="image"/>
+<link rel="shortcut" href="image"/>
+<link rel="apple-touch-icon" href="image"/>
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="Twitter:site" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+body{
+    height:2000px;
+   
+}
+background-repeat:no-repeat;
+p{
+    -webkit-text-stroke-color:blue;
+    -webkit-text-stroke-width:1px;
+}
+.but{
+    background:red ! important;
+    padding-bottom:8px; :
+    width:100px;
+    color:white;
+    tranition-property: background;
+    transition-duration:4s;
+    tranition-property: padding;
+    transition-duration:4s;
+    tranition-property: color;
+    transition-duration:4s;
+  opacity:0.5;
+    
+}
+.but:hover{
+    background:green;
+    width:200px;
+    padding:18px;
+    color: yellow;
+    font-size:20px;
+    
+}
+button{
+    background-color:green;
+    color:white;
+}
+samp{
+    -webkit-text-stroke:medium blue;
+    font-size:20px;
+   
+}
+center p{
+    border: 5px dotted yellow;
+    position:fixed;
+    left:25px;
+     bottom:0%;
+     color:red;
+}
+strong:hover{
+   color:yellow;
+}
+strong{
+   border : 2px solid blue;
+     color:red;
+    transition-property: color;
+    transition-duration:4s;
+    transition-delay:6s;
+    background:blue;
+    overflow:heddin;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    position:absolute;
+    right:12px;
+    
+}
+
+select{
+    background:green;
+    text-align: center;
+    
+}
+span{
+    background:red;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    position:fixed;
+    top:0%;
+    color: yellow;
+    -webkit-text-stroke:thin;
+    opacity:0.4;
+    }
+    strong::before{
+        content:"ليبيا";
+display:block;
+    }
+    
+
+#coment{
+    margin-top:10px;
+    max-width:100%;
+    border: 2px double green;
+}
+#coment:focus{
+   border-top:13px dotted red;
+   border-bottom:3px dashed green;
+    
+}
+a{
+    position:fixed;
+    left:98px;
+}
+
+</style>
+      <body>
+     
+      <br>
+      <span> بسم الله،، الموقع الليبي  <a href="tel:0944363329"><img src="https://i.postimg.cc/vB5MHncy/output-17.png" width="30px"/></a></span>
+      
+      <textarea id="coment" cols="120" rows="a"></textarea>
+      <br>
+      <strong>  بسم الله الرحمن الرحيم</strong>
+      <br>
+   <ol  id="test">
+      <li><p>ليبيا</p></li>
+         <li><p>ليبيا</p></li>
+            <li><p>ليبيا</p></li>
+               <li><p>ليبيا</p></li>
+      </ol>
+      <br>
+      <button onclick="edit1()">تعديل النص</button>
+           <button onclick="save1()">حفظ النص</button>
+      <br>
+      <form>
+      <select name="lang" required>
+      <option value="">أختر لغه</option>
+      <lapel>الاسم</label>
+      <option name="name" >العمر</option>
+      <option name="name">العمر</option>
+      </select>
+      <br>
+      <label>العربيه</label>
+      <input type="radio" name="lang" vaule="العربيه" required/>
+        <label>الانجليزيه</label>
+      <input type="radio" name="lang" vaule="الانجليزيه" required/>
+      <br>
+      <button class="but"type="supmit">إرسال للمعلومات</button>
+      </form>
+    
+      <ins>°===° <sup>1</sup></ins>
+      <br>
+      <meter value="90" min="0" max="100" low="50" high="75" most  optimum="100"></meter>
+      <br>
+      <fieldset>
+      <legend>
+       اختيارات
+      </legend>
+       <form>
+      <label>أختر لغة</label>
+      <select name="lang" required>
+      <option value="">lang</option>
+       <option value="ليبيا">ليبيا</option>
+        <option value="مصر">مصر</option>
+        
+      </select>
+      <button type="submit">ارسال البيانات</button>
+      </form>
+      </fieldset>
+      <center><p> جميع الحقوق محفوظه لموقع عبدالله الفقي ©2023</p></center>
+<script>
+function edit1(){
+    document.getElementById("test").contentEditable="true"
+}
+function save1(){
+    document.getElementById("test").contentEditable="false"
+}
+</script>
+</body>
+</html>
